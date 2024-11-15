@@ -17,11 +17,11 @@ app.use(cors()); // Permite todas las solicitudes de cualquier origen
 
 // Configuración de la conexión a la base de datos
 const db = mysql.createConnection({
-  host: process.env.DB_HOSTL,
-  user: process.env.DB_USERL,
-  password: process.env.DB_PASSWORDL,
-  database: process.env.DB_DATABASEL,
-  port: process.env.DB_PORTL
+  host: process.env.DB_HOSTP,
+  user: process.env.DB_USERP,
+  password: process.env.DB_PASSWORDP,
+  database: process.env.DB_DATABASEP,
+  port: process.env.DB_PORT
 });
 
 // Conectar a la base de datos
