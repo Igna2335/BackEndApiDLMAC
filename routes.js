@@ -3,6 +3,11 @@ const express = require('express');
 module.exports = (db) => {
   const router = express.Router();
 
+
+  router.get('/',(req, resp) =>{
+    resp.send("API CONTROLADOS")
+  })
+
   // Ruta para login
  router.post('/login', (req, res) => {
 
